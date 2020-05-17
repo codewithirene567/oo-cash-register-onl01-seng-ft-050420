@@ -15,7 +15,7 @@ class CashRegister
       optional_amount.times do 
   	  @items << title
   	  end
-  	  new_transaction = price * optional_amount
+  	  self.new_transaction = price * optional_amount
   	  end
     
     
@@ -30,7 +30,7 @@ class CashRegister
     end
 
       def void_last_transaction
-         total -= new_transaction
+         total -= self.new_transaction
       end
      
   
