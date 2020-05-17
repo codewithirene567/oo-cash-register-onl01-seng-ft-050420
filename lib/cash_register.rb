@@ -15,8 +15,7 @@ class CashRegister
       optional_amount.times do 
   	  @items << title
   	end
-  	
-    end
+  	end
     
     
     def apply_discount()
