@@ -15,7 +15,7 @@ class CashRegister
       optional_amount.times do 
   	@items << title
   	end
-  	
+  	total -= new_transaction
     end
     
     
