@@ -35,6 +35,9 @@ class CashRegister
   end
   
   
-
+#def void_last_transaction
+        #add_item(title, price, optional_amount = 1) = total -= new_transaction
+        
+    #end
 
 
