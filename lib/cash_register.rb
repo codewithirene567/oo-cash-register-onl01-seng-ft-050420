@@ -14,8 +14,8 @@ class CashRegister
       self.total += price * optional_amount
       optional_amount.times do 
   	  @items << title
-  	  new_transaction = price * optional_amount
-  	end
+  	  end
+  	  
   	end
     
     
