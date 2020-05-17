@@ -19,8 +19,7 @@ class CashRegister
     end
     
     
-    
-      def apply_discount()
+    def apply_discount()
       if @discount > 0 #this says if you detect a discount because it is anything greater than 0
       @discount = @discount/100.to_f #this converts the discount into a percentage
       @total = @total - (@total * (@discount)) #this says have the total of the discount to equal the total price they have to pay minus the discount times whatever total it is for example $100 times 20%, then have the whole thing subtracted from the total amount
@@ -40,7 +39,9 @@ class CashRegister
   
 #def void_last_transaction
         #add_item(title, price, optional_amount = 1) = total -= new_transaction
-        
+     
+  	
+  
     #end
 
 
