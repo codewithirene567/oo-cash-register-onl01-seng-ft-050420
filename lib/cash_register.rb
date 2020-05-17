@@ -30,7 +30,7 @@ class CashRegister
     end
 
       def void_last_transaction
-         total -= self.new_transaction
+         self.total -= self.new_transaction
       end
      
   
