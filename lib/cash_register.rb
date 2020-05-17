@@ -16,7 +16,7 @@ class CashRegister
   	@items << title
   	end
     end
-    
+    total -= new_transaction
     
     
       def apply_discount()
