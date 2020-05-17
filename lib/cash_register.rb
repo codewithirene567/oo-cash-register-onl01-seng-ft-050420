@@ -13,11 +13,9 @@ class CashRegister
     def add_item(title, price, optional_amount = 1) #this makes the default value 1
       self.total += price * optional_amount
       optional_amount.times do 
-  	  @items << total
+  	  @items << title
   	end
-  	total -= new_transaction
   	
-  	new_transaction = @items
     end
     
     
