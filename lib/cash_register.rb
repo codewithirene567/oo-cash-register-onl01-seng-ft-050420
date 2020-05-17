@@ -16,7 +16,7 @@ class CashRegister
   	
   	end
   	total -= new_transaction
-  	@items << total
+  	
   	new_transaction = @items
     end
     
