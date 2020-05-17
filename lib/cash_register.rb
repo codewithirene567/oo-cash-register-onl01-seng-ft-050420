@@ -34,7 +34,7 @@ class CashRegister
   
   end
   
-  We assign a new total to the amount and quantity. We populate our items array with each new item. And then we assign our new_transaction attribute to the new transaction that just took place.
+  #We assign a new total to the amount and quantity. We populate our items array with each new item. And then we assign our new_transaction attribute to the new transaction that just took place.
   
 #def void_last_transaction
         #add_item(title, price, optional_amount = 1) = total -= new_transaction
