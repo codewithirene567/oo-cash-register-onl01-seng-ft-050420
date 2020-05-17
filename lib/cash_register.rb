@@ -30,7 +30,7 @@ class CashRegister
     end
 
     
-  
+  total -= new_transaction
   
   end
   
