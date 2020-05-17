@@ -36,7 +36,7 @@ class CashRegister
   
   end
   
-  #
+  #@items << title was on line 16
   
   #We assign a new total to the amount and quantity. We populate our items array with each new item. And then we assign our new_transaction attribute to the new transaction that just took place.
   
