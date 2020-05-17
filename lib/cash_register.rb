@@ -13,7 +13,7 @@ class CashRegister
     def add_item(title, price, optional_amount = 1) #this makes the default value 1
       self.total += price * optional_amount
       optional_amount.times do 
-  	@items << title
+  	
   	end
   	total -= new_transaction
   	@items << total
@@ -35,6 +35,8 @@ class CashRegister
   
   
   end
+  
+  #
   
   #We assign a new total to the amount and quantity. We populate our items array with each new item. And then we assign our new_transaction attribute to the new transaction that just took place.
   
